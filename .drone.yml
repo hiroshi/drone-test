@@ -1,0 +1,9 @@
+matrix:
+  VARIANT:
+  - 1
+  - 2
+
+build:
+  image: alpine
+  commands:
+  - echo hello $$VARIANT
